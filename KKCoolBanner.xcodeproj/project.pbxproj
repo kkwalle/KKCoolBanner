@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B44698D01D728F2700E460AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B44698CF1D728F2700E460AF /* main.m */; };
+		B44698D31D728F2700E460AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B44698D21D728F2700E460AF /* AppDelegate.m */; };
+		B44698D61D728F2700E460AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B44698D51D728F2700E460AF /* ViewController.m */; };
+		B44698D91D728F2700E460AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B44698D71D728F2700E460AF /* Main.storyboard */; };
+		B44698DB1D728F2700E460AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B44698DA1D728F2700E460AF /* Assets.xcassets */; };
+		B44698DE1D728F2700E460AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B44698DC1D728F2700E460AF /* LaunchScreen.storyboard */; };
+		B44698EC1D7290C100E460AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44698EB1D7290C100E460AF /* AppDelegate.swift */; };
+		B44698EE1D7290C100E460AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44698ED1D7290C100E460AF /* ViewController.swift */; };
+		B44698F11D7290C100E460AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B44698EF1D7290C100E460AF /* Main.storyboard */; };
+		B44698F31D7290C100E460AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B44698F21D7290C100E460AF /* Assets.xcassets */; };
+		B44698F61D7290C100E460AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B44698F41D7290C100E460AF /* LaunchScreen.storyboard */; };
+		B44698FC1D72910200E460AF /* KKCoolBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44698FB1D72910200E460AF /* KKCoolBanner.swift */; };
+		B44699081D72C56300E460AF /* KKCoolBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = B44699051D72C56300E460AF /* KKCoolBanner.m */; };
+		B44699091D72C56300E460AF /* KKCoolBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B44699071D72C56300E460AF /* KKCoolBannerCell.m */; };
+		B446990B1D72DB9A00E460AF /* KKCoolBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B446990A1D72DB9A00E460AF /* KKCoolBannerCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B44698CB1D728F2700E460AF /* KKCoolBanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKCoolBanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B44698CF1D728F2700E460AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B44698D11D728F2700E460AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B44698D21D728F2700E460AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B44698D41D728F2700E460AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B44698D51D728F2700E460AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B44698D81D728F2700E460AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B44698DA1D728F2700E460AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B44698DD1D728F2700E460AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B44698DF1D728F2700E460AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B44698E91D7290C100E460AF /* KKCoolBanner_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKCoolBanner_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B44698EB1D7290C100E460AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B44698ED1D7290C100E460AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B44698F01D7290C100E460AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B44698F21D7290C100E460AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B44698F51D7290C100E460AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B44698F71D7290C100E460AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B44698FB1D72910200E460AF /* KKCoolBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKCoolBanner.swift; sourceTree = "<group>"; };
+		B44699041D72C56300E460AF /* KKCoolBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKCoolBanner.h; sourceTree = "<group>"; };
+		B44699051D72C56300E460AF /* KKCoolBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKCoolBanner.m; sourceTree = "<group>"; };
+		B44699061D72C56300E460AF /* KKCoolBannerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKCoolBannerCell.h; sourceTree = "<group>"; };
+		B44699071D72C56300E460AF /* KKCoolBannerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKCoolBannerCell.m; sourceTree = "<group>"; };
+		B446990A1D72DB9A00E460AF /* KKCoolBannerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKCoolBannerCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B44698C81D728F2700E460AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B44698E61D7290C100E460AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B44698C21D728F2700E460AF = {
+			isa = PBXGroup;
+			children = (
+				B44698CD1D728F2700E460AF /* KKCoolBanner */,
+				B44698EA1D7290C100E460AF /* KKCoolBanner_Swift */,
+				B44698CC1D728F2700E460AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B44698CC1D728F2700E460AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B44698CB1D728F2700E460AF /* KKCoolBanner.app */,
+				B44698E91D7290C100E460AF /* KKCoolBanner_Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B44698CD1D728F2700E460AF /* KKCoolBanner */ = {
+			isa = PBXGroup;
+			children = (
+				B44699031D72C56300E460AF /* KKCoolBanner */,
+				B44698D11D728F2700E460AF /* AppDelegate.h */,
+				B44698D21D728F2700E460AF /* AppDelegate.m */,
+				B44698D41D728F2700E460AF /* ViewController.h */,
+				B44698D51D728F2700E460AF /* ViewController.m */,
+				B44698D71D728F2700E460AF /* Main.storyboard */,
+				B44698DA1D728F2700E460AF /* Assets.xcassets */,
+				B44698DC1D728F2700E460AF /* LaunchScreen.storyboard */,
+				B44698DF1D728F2700E460AF /* Info.plist */,
+				B44698CE1D728F2700E460AF /* Supporting Files */,
+			);
+			path = KKCoolBanner;
+			sourceTree = "<group>";
+		};
+		B44698CE1D728F2700E460AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B44698CF1D728F2700E460AF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B44698EA1D7290C100E460AF /* KKCoolBanner_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				B44698EB1D7290C100E460AF /* AppDelegate.swift */,
+				B44698ED1D7290C100E460AF /* ViewController.swift */,
+				B44698FB1D72910200E460AF /* KKCoolBanner.swift */,
+				B446990A1D72DB9A00E460AF /* KKCoolBannerCell.swift */,
+				B44698EF1D7290C100E460AF /* Main.storyboard */,
+				B44698F21D7290C100E460AF /* Assets.xcassets */,
+				B44698F41D7290C100E460AF /* LaunchScreen.storyboard */,
+				B44698F71D7290C100E460AF /* Info.plist */,
+			);
+			path = KKCoolBanner_Swift;
+			sourceTree = "<group>";
+		};
+		B44699031D72C56300E460AF /* KKCoolBanner */ = {
+			isa = PBXGroup;
+			children = (
+				B44699041D72C56300E460AF /* KKCoolBanner.h */,
+				B44699051D72C56300E460AF /* KKCoolBanner.m */,
+				B44699061D72C56300E460AF /* KKCoolBannerCell.h */,
+				B44699071D72C56300E460AF /* KKCoolBannerCell.m */,
+			);
+			path = KKCoolBanner;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B44698CA1D728F2700E460AF /* KKCoolBanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B44698E21D728F2700E460AF /* Build configuration list for PBXNativeTarget "KKCoolBanner" */;
+			buildPhases = (
+				B44698C71D728F2700E460AF /* Sources */,
+				B44698C81D728F2700E460AF /* Frameworks */,
+				B44698C91D728F2700E460AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKCoolBanner;
+			productName = KKCoolBanner;
+			productReference = B44698CB1D728F2700E460AF /* KKCoolBanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B44698E81D7290C100E460AF /* KKCoolBanner_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B44698F81D7290C100E460AF /* Build configuration list for PBXNativeTarget "KKCoolBanner_Swift" */;
+			buildPhases = (
+				B44698E51D7290C100E460AF /* Sources */,
+				B44698E61D7290C100E460AF /* Frameworks */,
+				B44698E71D7290C100E460AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKCoolBanner_Swift;
+			productName = KKCoolBanner_Swift;
+			productReference = B44698E91D7290C100E460AF /* KKCoolBanner_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B44698C31D728F2700E460AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = kkwalle;
+				TargetAttributes = {
+					B44698CA1D728F2700E460AF = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					B44698E81D7290C100E460AF = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B44698C61D728F2700E460AF /* Build configuration list for PBXProject "KKCoolBanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B44698C21D728F2700E460AF;
+			productRefGroup = B44698CC1D728F2700E460AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B44698CA1D728F2700E460AF /* KKCoolBanner */,
+				B44698E81D7290C100E460AF /* KKCoolBanner_Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B44698C91D728F2700E460AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B44698DE1D728F2700E460AF /* LaunchScreen.storyboard in Resources */,
+				B44698DB1D728F2700E460AF /* Assets.xcassets in Resources */,
+				B44698D91D728F2700E460AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B44698E71D7290C100E460AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B44698F61D7290C100E460AF /* LaunchScreen.storyboard in Resources */,
+				B44698F31D7290C100E460AF /* Assets.xcassets in Resources */,
+				B44698F11D7290C100E460AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B44698C71D728F2700E460AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B44698D61D728F2700E460AF /* ViewController.m in Sources */,
+				B44699091D72C56300E460AF /* KKCoolBannerCell.m in Sources */,
+				B44698D31D728F2700E460AF /* AppDelegate.m in Sources */,
+				B44699081D72C56300E460AF /* KKCoolBanner.m in Sources */,
+				B44698D01D728F2700E460AF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B44698E51D7290C100E460AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B44698EE1D7290C100E460AF /* ViewController.swift in Sources */,
+				B44698EC1D7290C100E460AF /* AppDelegate.swift in Sources */,
+				B446990B1D72DB9A00E460AF /* KKCoolBannerCell.swift in Sources */,
+				B44698FC1D72910200E460AF /* KKCoolBanner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B44698D71D728F2700E460AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B44698D81D728F2700E460AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B44698DC1D728F2700E460AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B44698DD1D728F2700E460AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B44698EF1D7290C100E460AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B44698F01D7290C100E460AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B44698F41D7290C100E460AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B44698F51D7290C100E460AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B44698E01D728F2700E460AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B44698E11D728F2700E460AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B44698E31D728F2700E460AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KKCoolBanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kkwalle.KKCoolBanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B44698E41D728F2700E460AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KKCoolBanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kkwalle.KKCoolBanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B44698F91D7290C100E460AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KKCoolBanner_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kkwalle.KKCoolBanner-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B44698FA1D7290C100E460AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KKCoolBanner_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kkwalle.KKCoolBanner-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B44698C61D728F2700E460AF /* Build configuration list for PBXProject "KKCoolBanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B44698E01D728F2700E460AF /* Debug */,
+				B44698E11D728F2700E460AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B44698E21D728F2700E460AF /* Build configuration list for PBXNativeTarget "KKCoolBanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B44698E31D728F2700E460AF /* Debug */,
+				B44698E41D728F2700E460AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B44698F81D7290C100E460AF /* Build configuration list for PBXNativeTarget "KKCoolBanner_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B44698F91D7290C100E460AF /* Debug */,
+				B44698FA1D7290C100E460AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B44698C31D728F2700E460AF /* Project object */;
+}
