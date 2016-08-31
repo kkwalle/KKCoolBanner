@@ -18,10 +18,10 @@
 		B44698F11D7290C100E460AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B44698EF1D7290C100E460AF /* Main.storyboard */; };
 		B44698F31D7290C100E460AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B44698F21D7290C100E460AF /* Assets.xcassets */; };
 		B44698F61D7290C100E460AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B44698F41D7290C100E460AF /* LaunchScreen.storyboard */; };
-		B44698FC1D72910200E460AF /* KKCoolBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44698FB1D72910200E460AF /* KKCoolBanner.swift */; };
 		B44699081D72C56300E460AF /* KKCoolBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = B44699051D72C56300E460AF /* KKCoolBanner.m */; };
 		B44699091D72C56300E460AF /* KKCoolBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B44699071D72C56300E460AF /* KKCoolBannerCell.m */; };
-		B446990B1D72DB9A00E460AF /* KKCoolBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B446990A1D72DB9A00E460AF /* KKCoolBannerCell.swift */; };
+		B45E41C01D76A1AB009D0330 /* KKCoolBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45E41BE1D76A1AB009D0330 /* KKCoolBanner.swift */; };
+		B45E41C11D76A1AB009D0330 /* KKCoolBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45E41BF1D76A1AB009D0330 /* KKCoolBannerCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,12 +42,12 @@
 		B44698F21D7290C100E460AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B44698F51D7290C100E460AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B44698F71D7290C100E460AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B44698FB1D72910200E460AF /* KKCoolBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKCoolBanner.swift; sourceTree = "<group>"; };
 		B44699041D72C56300E460AF /* KKCoolBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKCoolBanner.h; sourceTree = "<group>"; };
 		B44699051D72C56300E460AF /* KKCoolBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKCoolBanner.m; sourceTree = "<group>"; };
 		B44699061D72C56300E460AF /* KKCoolBannerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKCoolBannerCell.h; sourceTree = "<group>"; };
 		B44699071D72C56300E460AF /* KKCoolBannerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKCoolBannerCell.m; sourceTree = "<group>"; };
-		B446990A1D72DB9A00E460AF /* KKCoolBannerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKCoolBannerCell.swift; sourceTree = "<group>"; };
+		B45E41BE1D76A1AB009D0330 /* KKCoolBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKCoolBanner.swift; sourceTree = "<group>"; };
+		B45E41BF1D76A1AB009D0330 /* KKCoolBannerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKCoolBannerCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,10 +114,9 @@
 		B44698EA1D7290C100E460AF /* KKCoolBanner_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				B45E41BD1D76A1AB009D0330 /* KKCoolBanner */,
 				B44698EB1D7290C100E460AF /* AppDelegate.swift */,
 				B44698ED1D7290C100E460AF /* ViewController.swift */,
-				B44698FB1D72910200E460AF /* KKCoolBanner.swift */,
-				B446990A1D72DB9A00E460AF /* KKCoolBannerCell.swift */,
 				B44698EF1D7290C100E460AF /* Main.storyboard */,
 				B44698F21D7290C100E460AF /* Assets.xcassets */,
 				B44698F41D7290C100E460AF /* LaunchScreen.storyboard */,
@@ -133,6 +132,15 @@
 				B44699051D72C56300E460AF /* KKCoolBanner.m */,
 				B44699061D72C56300E460AF /* KKCoolBannerCell.h */,
 				B44699071D72C56300E460AF /* KKCoolBannerCell.m */,
+			);
+			path = KKCoolBanner;
+			sourceTree = "<group>";
+		};
+		B45E41BD1D76A1AB009D0330 /* KKCoolBanner */ = {
+			isa = PBXGroup;
+			children = (
+				B45E41BE1D76A1AB009D0330 /* KKCoolBanner.swift */,
+				B45E41BF1D76A1AB009D0330 /* KKCoolBannerCell.swift */,
 			);
 			path = KKCoolBanner;
 			sourceTree = "<group>";
@@ -255,8 +263,8 @@
 			files = (
 				B44698EE1D7290C100E460AF /* ViewController.swift in Sources */,
 				B44698EC1D7290C100E460AF /* AppDelegate.swift in Sources */,
-				B446990B1D72DB9A00E460AF /* KKCoolBannerCell.swift in Sources */,
-				B44698FC1D72910200E460AF /* KKCoolBanner.swift in Sources */,
+				B45E41C11D76A1AB009D0330 /* KKCoolBannerCell.swift in Sources */,
+				B45E41C01D76A1AB009D0330 /* KKCoolBanner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +462,7 @@
 				B44698E41D728F2700E460AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B44698F81D7290C100E460AF /* Build configuration list for PBXNativeTarget "KKCoolBanner_Swift" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +471,7 @@
 				B44698FA1D7290C100E460AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
